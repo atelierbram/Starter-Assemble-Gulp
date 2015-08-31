@@ -1,0 +1,12 @@
+@import
+"vars/typo-vars",
+"vars/color-vars",
+"vars/color-vars-extended",
+"elements/elements",
+"vendor/prism-base16.light.scss";
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+

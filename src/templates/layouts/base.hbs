@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js core no-flexbox" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  {{#if description}}<meta name="description" content="{{description}}"/>{{/if}}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="author" href="https://plus.google.com/+BramdeHaan/posts">
+  <script>{{partial "head-detect-js"}}</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<div class="container">
+  {{partial "header" }}
+  {{partial "nav" }}
+
+  {% body %}
+
+  {{partial "footer" }}
+</div>
+
+<script src="assets/js/prism-js-bash.js" defer></script>
+</html>

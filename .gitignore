@@ -1,6 +1,33 @@
+.DS_Store
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.rar
+*.ai
+
 # Logs
+npm-debug.log
+pids
 logs
 *.log
+
+#sass cache files
+.sass-cache
+
+release
+/tmp/
+/temp/
+dist
+
+logs
+
+# Docs, etc in underscore directory
+_
 
 # Runtime data
 pids
