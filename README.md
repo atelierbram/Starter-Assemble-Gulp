@@ -35,11 +35,11 @@ var extname = require('gulp-extname');
 assemble.option('layout', 'base');
 
 assemble.partials('src/templates/partials/*.hbs');
-assemble.layouts('src/templates/layouts/*.hbs', {site: {title: 'Code Project'}});
+assemble.layouts('src/templates/layouts/*.hbs');
 assemble.data(['src/data/*.{json,yml}']);
 
 assemble.partials('src/templates/partials/*.hbs');
-assemble.layouts('src/templates/layouts/*.hbs', {site: {title: 'Code Project'}});
+assemble.layouts('src/templates/layouts/*.hbs');
 assemble.data(['src/data/*.{json,yml}']);
 
 assemble.task('default', function () {
