@@ -61,29 +61,6 @@ nav ul a {
 b, strong { font-weight: bold; }
 small { font-size: 80%; }
 
-.container {
-  max-width: 60em;
-  margin: 0 auto 2em;
-  padding: 1em 5% 5em;
-  background: #fff;
-  border: 1px solid $light04;
-  border-top: 0;
-  overflow: auto;
-  position: relative;
-
-  @media (min-width: 500px) {
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-  }
-  @media (min-width: 768px) {
-    padding-left: 5em;
-    padding-right: 5em;
-  }
-  @media (min-width: 960px) {
-    padding-left: 10em;
-    padding-right: 10em;
-  }
-}
 
 h1, h2, h3, h4 {
   margin: 0;

@@ -5,6 +5,38 @@
 "elements/elements",
 "vendor/prism-base16.light.scss";
 
+.container {
+  max-width: 60em;
+  margin: 0 auto 2em;
+  padding: 1em 5% 5em;
+  background: #fff;
+  border: 1px solid $light04;
+  border-top: 0;
+  overflow: auto;
+  position: relative;
+
+  @media (min-width: 500px) {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+  @media (min-width: 650px) {
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+  }
+  @media (min-width: 768px) {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  @media (min-width: 800px) {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+  @media (min-width: 960px) {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+}
+
 nav ul {
   display: flex;
   justify-content: center;
