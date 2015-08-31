@@ -1,5 +1,7 @@
 # Starter-kit for Assemble with Gulp
 
+generating webpages with Assemble-beta and Gulp
+
 Assemble with Gulp is at the moment of writing not quite ready for production. When you go to [the repo for gulp-assemble](https://github.com/assemble/gulp-assemble) you will be welcomed by a disclaimer. Things like rendering of markdown to html doesn't quite work yet, so better stay with the stable Grunt version for now. However on a small project with a Gulp workflow and markdown rendering not being required, you can give it a try.
 
 The examples here are with using the beta version of Assemble **not** the plugin – _gulp-assemble_.
@@ -24,7 +26,7 @@ Now you want to at least also install the `gulp-extname` plugin, to be able to d
 npm i gulp-extname --save-dev
 ```
 
-The current workflow for this alpha version is to have a seperate file for Assemble called `assemblefile.js`.
+The current workflow for this beta version is to have a seperate file for Assemble called `assemblefile.js`.
 
 ### Example assemblefile.js
 
