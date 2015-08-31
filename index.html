@@ -14,10 +14,6 @@ assemble.partials('src/templates/partials/*.hbs');
 assemble.layouts('src/templates/layouts/*.hbs');
 assemble.data(['src/data/*.{json,yml}']);
 
-assemble.partials('src/templates/partials/*.hbs');
-assemble.layouts('src/templates/layouts/*.hbs');
-assemble.data(['src/data/*.{json,yml}']);
-
 assemble.task('default', function () {
   assemble.src('src/content/**/*.hbs', { layout: 'base' })
     .pipe(extname())
