@@ -146,6 +146,7 @@ The assemble – and minify-task should ideally be combined into one task, but t
 - [gulp-extname](https://github.com/jonschlinkert/gulp-extname)
 - [example Gulpfile.js](https://github.com/assemble/gulp-assemble/blob/master/gulpfile.js)
 - [example assemblefile.js](https://gist.github.com/jonschlinkert/e2da295ec7ca5d159914)
+- [gulp for beginners](https://css-tricks.com/gulp-for-beginners)
 - [A Simple Gulp’y Workflow For Sass](http://www.sitepoint.com/simple-gulpy-workflow-sass/)
 - [Getting started with Gulp and Sass](http://ryanchristiani.com/getting-started-with-gulp-and-sass/)
 - [Introduction to Gulp.js 4: Creating CSS with Sass](http://stefanimhoff.de/2014/gulp-tutorial-4-css-generation-sass/)
