@@ -66,6 +66,7 @@ gulp.task('sass', function () {
     // Find all `.scss` file from the `assets/sass` folder
     .src(srcSass)
     // Run Sass on those files
+    .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(sourcemaps.write('./maps'))
     .pipe(autoprefixer(autoprefixerOptions))
