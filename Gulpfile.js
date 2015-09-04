@@ -65,11 +65,12 @@ gulp.task('sass', function () {
   return gulp
     // Find all `.scss` file from the `assets/sass` folder
     .src(srcSass)
+    // .pipe(sourcemaps.init())
     // Run Sass on those files
-    .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(sourcemaps.write('./maps'))
     .pipe(autoprefixer(autoprefixerOptions))
+    .pipe(autoprefixer())
     // write the resulting CSS in the dist-output folder for distribution
     .pipe(gulp.dest(distCss));
     // .pipe(sassdoc())
