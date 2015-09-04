@@ -70,7 +70,12 @@ pre[class*="language-"] {
   overflow: auto;
   max-width: 49em;
 }
-
+// dark theme overrides
+pre.language-bash {
+  margin-left: 1em;
+  margin-right: 1em;
+  max-width: 43em;
+}
 // Inline code */
 :not(pre) > code[class*="language-"] {
   padding: .1em;
