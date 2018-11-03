@@ -1,5 +1,7 @@
 # Starter-kit for Assemble with Gulp
 
+This repo is no longer maintained anymore.
+
 generating webpages with Assemble-beta and Gulp
 
 Assemble with Gulp is at the moment of writing not quite ready for production. When you go to [the repo for gulp-assemble](https://github.com/assemble/gulp-assemble) you will be welcomed by a disclaimer. Things like rendering of markdown to html doesn't quite work yet, so better stay with the stable Grunt version for now. However on a small project with a Gulp workflow and markdown rendering not being required, you can give it a try.
